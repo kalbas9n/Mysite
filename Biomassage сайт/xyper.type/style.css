@@ -1,0 +1,63 @@
+.arrow-button {
+    background-color: #3b5998; /* Цвет фона */
+    border: none; /* Убираем границу */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    text-align: center; /* Выравнивание текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Отображаем как строчный элемент */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Изменяем курсор при наведении */
+    border-radius: 5px; /* Делаем скругленные углы */
+    
+  }
+  
+  .arrow-button::after {
+    content: ' ►'; /* Добавляем стрелку */
+  }
+
+#img1 {
+    width: 100%;
+    height: auto;
+}
+
+.arrow-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4C75A3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    #img1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .arrow-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #img1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .arrow-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+.error { color: red; }
+a {
+    text-decoration: none;
+  }
+  
